@@ -20,12 +20,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <body>
 
 <!-- Sidebar with image -->
-<div  class="w3-hide-small" id="side_img" style="width:40%">
-  <img src="{{ url_for('static', filename='14.jpg') }}" style="height : 100%">
+<div style="width: 40%; position: absolute;" >
+  <img src="{{ url_for('static', filename='14.jpg') }}" width="100%" class="w3-hide-medium w3-hide-small side sometimes-hidden-img">
 </div>
 
+
 <!-- Page Content -->
-<div class="w3-main w3-padding-large" style="margin-left:40%">
+<div class="w3-main w3-padding-large" style="left:40%; position: absolute;">
 
   <!-- Header -->
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
