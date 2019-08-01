@@ -6,3 +6,16 @@
 
 }
 
+#side_img {
+
+	padding-left: 0px;
+	padding-right: 70%;
+}
+
+
+@media (max-width: 600px) {
+  .sometimes-hidden-img {
+    display: none;
+  }
+}
+
